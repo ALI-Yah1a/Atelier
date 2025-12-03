@@ -28,17 +28,83 @@ h1, h2, h3, h4, h5, h6{
 .logo{
     font-size: 24px;
     font-weight: bold;
+    margin-left: 220px;
 }
 .navbar a{
     margin: 0 15px;
     text-decoration: none;
     color: #000;
     font-size: 15px;
+    transition: color 0.3s ease;
+
 }
 .navbar a:hover{
     color: #da6f4e;
 }
+.header-icons{
+    margin-right: 220px;
+}
 .header-icons a{
-    font-size: 16px;
+    font-size: 18px;
     color: #da6f4e;
+    cursor: pointer;
+    margin-right:  20px;
+    transition: color 0.3s ease;
+}
+.header-icons a:hover{
+    color: #000;
+}
+.home-section{
+    margin-top: 70px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 120px;
+    background: url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+}
+.home-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(221, 207, 207, 0.582);
+    backdrop-filter: blur(2px);
+    margin-top: 70px;
+}
+.home-content{
+    position: relative;
+    max-width: 600px;
+}
+.home-content h1{
+    font-size: 68px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #000;
+
+}
+.home-content p{
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 30px;
+}
+.btn{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #da6f4e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+    font-size: 16px;
+
+}
+.btn:hover{
+    opacity: 0.8;
 }
