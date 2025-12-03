@@ -250,3 +250,46 @@ h1, h2, h3, h4, h5, h6{
 .about-content .second-about{
     margin-top: 30px;
 }
+.contact-section{
+    background-color: #eeece84c;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact-content h2{
+    font-size: 48px;
+    color: #000;
+    margin-bottom: 25px;
+}
+.contact-content p{
+    color: #7e7167;
+    margin-bottom: 60px;
+    font-size: 16px;
+}
+.contact-form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.contact-form input{
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 300px;
+    outline: none;
+}
+.contact-form button{
+    background-color: #da6f4e;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    cursor: pointer;
+    transition: opacity 0.3 ease;
+}
+.contact-form button:hover{
+    opacity: 0.9;
+}
