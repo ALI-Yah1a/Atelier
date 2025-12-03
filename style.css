@@ -8,7 +8,7 @@
     font-family: 'Inter', sans-serif;
 }
 body{
-    background-color: #f5f5f5;
+    background-color: #ffffff;
 }
 h1, h2, h3, h4, h5, h6{
     font-family: 'Crimson Pro', serif;
@@ -111,6 +111,7 @@ h1, h2, h3, h4, h5, h6{
 .shop-section{
     padding: 80px 0px;
     text-align: center;
+    background-color: #e0ddd5;
 }
 .shop-header h2{
     font-size: 40px;
@@ -159,12 +160,64 @@ h1, h2, h3, h4, h5, h6{
     margin-top: 20px;
 }
 .card-info h3{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500px;
 }
 .card-info p{
     margin-top: 5px;
     color: #da6f4e;
     font-weight: bold;
+    font-size: 16px;
+}
+.collections-section{
+    padding: 80px 0;
+    background-color: #eeece84c;
+}
+.collections-cotent{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.collection-title{
+    font-size: 48px;
+    margin-bottom: 60px;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.collections-cards{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.collection-card{
+    position: relative;
+    width: 305px;
+    height: 120px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition:  0.3s ease;
+    background-color: #fff;
+    border: solid 1px #fff;
+}
+.collection-card:hover{
+    border-color: #da6f4e;
+    color: #da6f4e;
+}
+.collection-card h3{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.collection-card p{
+    text-align: center;
     font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
